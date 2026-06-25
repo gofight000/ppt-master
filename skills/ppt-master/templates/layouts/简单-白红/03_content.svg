@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- 背景 -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  
+  <!-- 顶部标题栏背景 -->
+  <rect x="0" y="0" width="1280" height="80" fill="#FFFFFF"/>
+  
+  <!-- 页面标题 -->
+  <text x="60" y="55" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="28" font-weight="bold" fill="#1A1A1A">
+    {{PAGE_TITLE}}
+  </text>
+  
+  <!-- 标题下方红色底线 -->
+  <rect x="60" y="70" width="60" height="3" fill="#C8102E"/>
+  
+  <!-- 内容区域背景（浅灰） -->
+  <rect x="60" y="100" width="1160" height="560" fill="#F5F5F5" rx="4"/>
+  
+  <!-- 内容区域占位提示 -->
+  <text x="640" y="380" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="18" fill="#999999" text-anchor="middle">
+    {{CONTENT_AREA}}
+  </text>
+  
+  <!-- 页码 - 右下角 -->
+  <text x="1180" y="695" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#999999" text-anchor="end">
+    {{PAGE_NUM}}
+  </text>
+  
+  <!-- 页码左侧红色装饰点 -->
+  <circle cx="1190" cy="690" r="3" fill="#C8102E"/>
+</svg>

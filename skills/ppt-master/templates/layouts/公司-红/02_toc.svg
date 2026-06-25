@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <!-- Template: Table of Contents - 公司-红 Corporate Red Theme -->
+
+    <defs>
+        <!-- Top Accent Gradient -->
+        <linearGradient id="topGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#C41E3A;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#8B0000;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- White Background -->
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+    <!-- Top Gradient Decoration Line -->
+    <rect x="0" y="0" width="1280" height="4" fill="url(#topGrad)"/>
+
+    <!-- Navigation Header -->
+    <!-- Chapter Number Block - Corporate Red Rounded -->
+    <rect x="60" y="30" width="50" height="50" fill="#C41E3A" rx="8"/>
+    <text x="85" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">目</text>
+    <text x="130" y="65" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" font-size="32" font-weight="bold" fill="#1A1A1A">目录</text>
+    <text x="130" y="88" font-family="Arial, sans-serif" font-size="14" fill="#6C757D">CONTENTS</text>
+
+    <!-- Left Decorative Vertical Line -->
+    <rect x="260" y="140" width="4" height="480" fill="#C41E3A"/>
+    <rect x="268" y="140" width="2" height="480" fill="#D4AF37" fill-opacity="0.5"/>
+
+    <!-- TOC Item 1 -->
+    <g>
+        <rect x="290" y="160" width="48" height="48" fill="#C41E3A" rx="8"/>
+        <text x="314" y="193" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">01</text>
+        <text x="360" y="188" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="22" font-weight="bold" fill="#1A1A1A">{{TOC_ITEM_1_TITLE}}</text>
+        <text x="360" y="213" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#6C757D">{{TOC_ITEM_1_DESC}}</text>
+    </g>
+
+    <!-- TOC Item 2 -->
+    <g>
+        <rect x="290" y="250" width="48" height="48" fill="#C41E3A" rx="8"/>
+        <text x="314" y="283" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">02</text>
+        <text x="360" y="278" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="22" font-weight="bold" fill="#1A1A1A">{{TOC_ITEM_2_TITLE}}</text>
+        <text x="360" y="303" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#6C757D">{{TOC_ITEM_2_DESC}}</text>
+    </g>
+
+    <!-- TOC Item 3 -->
+    <g>
+        <rect x="290" y="340" width="48" height="48" fill="#C41E3A" rx="8"/>
+        <text x="314" y="373" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">03</text>
+        <text x="360" y="368" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="22" font-weight="bold" fill="#1A1A1A">{{TOC_ITEM_3_TITLE}}</text>
+        <text x="360" y="393" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#6C757D">{{TOC_ITEM_3_DESC}}</text>
+    </g>
+
+    <!-- TOC Item 4 -->
+    <g>
+        <rect x="290" y="430" width="48" height="48" fill="#C41E3A" rx="8"/>
+        <text x="314" y="463" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">04</text>
+        <text x="360" y="458" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="22" font-weight="bold" fill="#1A1A1A">{{TOC_ITEM_4_TITLE}}</text>
+        <text x="360" y="483" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#6C757D">{{TOC_ITEM_4_DESC}}</text>
+    </g>
+
+    <!-- TOC Item 5 -->
+    <g>
+        <rect x="290" y="520" width="48" height="48" fill="#C41E3A" rx="8"/>
+        <text x="314" y="553" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">05</text>
+        <text x="360" y="548" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="22" font-weight="bold" fill="#1A1A1A">{{TOC_ITEM_5_TITLE}}</text>
+        <text x="360" y="573" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#6C757D">{{TOC_ITEM_5_DESC}}</text>
+    </g>
+
+    <!-- Right Side Stats Area -->
+    <rect x="850" y="140" width="370" height="480" fill="#F8F9FA" rx="12"/>
+    <rect x="850" y="140" width="6" height="480" fill="#C41E3A" rx="3"/>
+
+    <!-- Stats Section 1 -->
+    <text x="1035" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#C41E3A" fill-opacity="0.15">{{STAT_NUMBER_1}}</text>
+    <text x="1035" y="310" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#495057">{{STAT_LABEL_1}}</text>
+
+    <line x1="890" y1="350" x2="1180" y2="350" stroke="#E9ECEF" stroke-width="1"/>
+
+    <!-- Stats Section 2 -->
+    <text x="1035" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#8B0000" fill-opacity="0.2">{{STAT_NUMBER_2}}</text>
+    <text x="1035" y="480" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#495057">{{STAT_LABEL_2}}</text>
+
+    <!-- Stats Section 3 -->
+    <text x="1035" y="550" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#6C757D">{{STAT_LABEL_3}}</text>
+
+    <!-- Bottom Decoration Line -->
+    <rect x="0" y="717" width="1280" height="3" fill="#8B0000"/>
+
+    <!-- Page Number -->
+    <text x="640" y="695" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6C757D">{{PAGE_NUM}}</text>
+
+</svg>

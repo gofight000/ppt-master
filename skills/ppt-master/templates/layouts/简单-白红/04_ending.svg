@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- 背景 -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  
+  <!-- 顶部红色装饰条 -->
+  <rect x="0" y="0" width="1280" height="4" fill="#C8102E"/>
+  
+  <!-- 感谢文字 - 居中 -->
+  <text x="640" y="320" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="56" font-weight="bold" fill="#1A1A1A" text-anchor="middle">
+    {{THANK_YOU}}
+  </text>
+  
+  <!-- 红色底线装饰 -->
+  <rect x="540" y="350" width="200" height="3" fill="#C8102E"/>
+  
+  <!-- 副标题/结束语 -->
+  <text x="640" y="400" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="20" fill="#666666" text-anchor="middle">
+    {{CLOSING_MESSAGE}}
+  </text>
+  
+  <!-- 联系信息 - 底部 -->
+  <text x="640" y="580" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#999999" text-anchor="middle">
+    {{CONTACT_INFO}}
+  </text>
+  
+  <!-- 页码 -->
+  <text x="640" y="650" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#CCCCCC" text-anchor="middle">
+    {{PAGE_NUM}}
+  </text>
+  
+  <!-- 左下角装饰 -->
+  <rect x="60" y="650" width="80" height="2" fill="#E0E0E0"/>
+  
+  <!-- 右下角装饰 -->
+  <rect x="1140" y="650" width="80" height="2" fill="#E0E0E0"/>
+</svg>

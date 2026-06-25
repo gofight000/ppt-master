@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- 背景 -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  
+  <!-- 大号章节数字背景装饰 -->
+  <text x="640" y="380" font-family="Arial, Helvetica, sans-serif" font-size="200" font-weight="bold" fill="#C8102E" fill-opacity="0.08" text-anchor="middle">
+    {{CHAPTER_NUM}}
+  </text>
+  
+  <!-- 左侧红色装饰条 -->
+  <rect x="60" y="280" width="4" height="120" fill="#C8102E"/>
+  
+  <!-- 章节数字 -->
+  <text x="100" y="340" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="bold" fill="#C8102E">
+    {{CHAPTER_NUM}}
+  </text>
+  
+  <!-- 章节标题 -->
+  <text x="100" y="400" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="40" font-weight="bold" fill="#1A1A1A">
+    {{CHAPTER_TITLE}}
+  </text>
+  
+  <!-- 红色底线 -->
+  <rect x="100" y="420" width="120" height="3" fill="#C8102E"/>
+  
+  <!-- 右下角装饰 -->
+  <rect x="1100" y="650" width="120" height="2" fill="#E0E0E0"/>
+</svg>

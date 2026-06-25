@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <!-- Template: Cover Page - 公司-红 Corporate Red Theme -->
+
+    <defs>
+        <!-- Corporate Red Gradient Background -->
+        <linearGradient id="coverBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#C41E3A;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#8B0000;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#5C0011;stop-opacity:1" />
+        </linearGradient>
+        <!-- Gold Accent Gradient -->
+        <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect x="0" y="0" width="1280" height="720" fill="url(#coverBgGrad)" />
+
+    <!-- Decorative Elements - Geometric Circles -->
+    <circle cx="1150" cy="120" r="280" fill="#FFFFFF" fill-opacity="0.03" />
+    <circle cx="100" cy="600" r="220" fill="#FFFFFF" fill-opacity="0.03" />
+    <circle cx="640" cy="360" r="380" fill="#FFFFFF" fill-opacity="0.02" />
+
+    <!-- Grid Decoration Lines -->
+    <line x1="0" y1="180" x2="1280" y2="180" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.05" />
+    <line x1="0" y1="540" x2="1280" y2="540" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.05" />
+    <line x1="320" y1="0" x2="320" y2="720" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.05" />
+    <line x1="960" y1="0" x2="960" y2="720" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.05" />
+
+    <!-- Top Gold Accent Line -->
+    <rect x="0" y="0" width="1280" height="6" fill="url(#goldGrad)" />
+
+    <!-- Left Decorative Vertical Bar -->
+    <rect x="80" y="220" width="6" height="280" fill="#D4AF37" fill-opacity="0.7" />
+
+    <!-- Main Title Area -->
+    <text x="640" y="280" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" font-size="56" font-weight="bold" fill="#FFFFFF">
+        {{TITLE}}
+    </text>
+
+    <!-- Subtitle -->
+    <text x="640" y="350" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="26" fill="#FFFFFF" fill-opacity="0.85">
+        {{SUBTITLE}}
+    </text>
+
+    <!-- Divider Line -->
+    <line x1="460" y1="400" x2="820" y2="400" stroke="#D4AF37" stroke-width="2" stroke-opacity="0.8" />
+
+    <!-- Organization Name (Chinese) -->
+    <text x="640" y="470" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#FFFFFF" fill-opacity="0.9">
+        {{AUTHOR}}
+    </text>
+
+    <!-- Organization Name (English) -->
+    <text x="640" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.6">
+        {{AUTHOR_EN}}
+    </text>
+
+    <!-- Date -->
+    <text x="640" y="600" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#FFFFFF" fill-opacity="0.7">
+        {{DATE}}
+    </text>
+
+    <!-- Bottom Decoration Area -->
+    <rect x="0" y="690" width="1280" height="30" fill="#1A1A2E" fill-opacity="0.5" />
+    <text x="640" y="712" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.8">
+        {{ORGANIZATION}}
+    </text>
+
+</svg>
